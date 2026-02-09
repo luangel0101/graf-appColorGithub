@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card principal */
+.rgb-card {
+    width: 100%;
+    max-width: 420px;
+    border-radius: 20px;
+    background-color: #ffffff;
+}
+
+/* Recuadro de color */
+#colorBox {
+    width: 220px;
+    height: 220px;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: inset 0 0 0 2px rgba(0,0,0,0.05),
+                0 10px 25px rgba(0,0,0,0.25);
+    transition: background-color 0.3s ease;
+}
+
+/* Títulos */
+h2 {
+    font-weight: 700;
+    color: #333;
+}
+
+h5 {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Inputs numéricos */
+input[type="number"] {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sliders */
+.form-range::-webkit-slider-thumb {
+    background-color: #667eea;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #667eea;
+}
+
+/* Color picker */
+input[type="color"] {
+    width: 80px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Etiquetas */
+label {
+    font-weight: 600;
+    color: #444;
+}
+
+/* Texto RGB y HEX */
+#rgbValue,
+#hexValue {
+    font-family: monospace;
+    font-size: 1.1rem;
+    color: #667eea;
+}
